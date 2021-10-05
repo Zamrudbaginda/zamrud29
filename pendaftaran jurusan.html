@@ -1,0 +1,122 @@
+<table>
+   
+<tr>
+<td>Tempat Lahir</td>
+<td>:</td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Tanggal Lahir</td>
+<td>:</td>
+<td><input type="Date"></td>
+</tr>
+
+<tr>
+<td>Jenis Kelamin</td>
+<td>:</td>
+<td><input type="radio" name='jenis_kelamin' value='pria'/>Pria
+<input type="radio" name='jenis_kelamin' value='perempuan'/>Perempuan</td>
+</tr>
+
+<tr>
+<td>Alamat</td>
+<td>:</td>
+<td><textarea cols="22" rows="3" ></textarea></td>
+</tr>
+
+<tr>
+<td>E-mail</td>
+<td>:</td>
+<td><input type="email"></td>
+</tr>
+
+<tr>
+<td>No Hp</td>
+<td>:</td>
+<td><input type="number"></td>
+</tr>
+
+<tr>
+<td>Kota</td>
+<td>:</td>
+<td><select>
+<option>*****SELECT KOTA*****</option>
+<option>Bogor</option>
+<option>Jakarta</option>
+<option>Bekasi</option>
+<option>Tangerang</option>
+<option>Depok</option>
+<option>cikarang</option>
+<option>Banten</option>
+</select></td>
+</tr>
+
+<form action="/action_page.php">
+    <label for="country_code">Kode Pos:</label>
+    <input type="text" id="country_code" name="country_code"
+    pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+    <input type="submit">
+  </form>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><input type="submit" name="submit" value="Simpan"/>
+<input type="reset" name="reset" value="Batal" /></td>
+</tr>
+
+<!-- Password field -->
+Password: <input type="password" value="FakePSW" id="myInput">
+
+<!-- An element to toggle between password visibility -->
+<input type="checkbox" onclick="myFunction()">Show Password
+
+<html>
+<body>
+
+<h2>Image as a Link</h2>
+
+<p>The image below is a link. Try to click on it.</p>
+
+<a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+
+</body>
+</html>
+
+<form action="/action_page.php">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+     
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+  <nav>
+    <a href="/html/">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/python/">Python</a>
+  </nav>
+
+  <ol>
+    Nama jurusan yang akan di pilih : 
+    <li>Informatika</li>
+    <li>Mesin</li>
+    <li>Sipil</li>
+  </ol>
+  
+  
+  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Pilihan jurusan: <input type="text" name="fname">
+    <input type="submit" value="Submit">
+    </form>
+
+</table>
+
